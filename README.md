@@ -1,7 +1,12 @@
 # 🎬 Movie Recommendation System 
-
-
 This is a simple **content-based movie recommendation system** built using the **MovieLens** dataset. It recommends 5 similar movies based on the genre and title of the selected movie.
+
+## 📸 App Screenshot
+
+Here is what the app looks like:
+
+![UI Screenshot](UI.png)
+
 
 ## ✅ Features
 
