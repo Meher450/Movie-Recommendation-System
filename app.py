@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load dataset
 @st.cache_data
 def load_data():
-    movies = pd.read_csv("D:/LPU/Interns/Avnotech/Task 1/movies.csv")
+    movies = pd.read_csv("movies.csv")
     movies['genres'] = movies['genres'].str.replace('|', ' ', regex=False)
     movies['content'] = movies['title'] + ' ' + movies['genres']
     return movies
